@@ -7,7 +7,7 @@ function Quote({ quote }) {
                 {quote.anime}
             </div>
 
-            <blockquote id="text">{quote.quote}</blockquote>
+            <blockquote>{quote.quote}</blockquote>
 
             <div className='character' title={quote.character} id="author">
                 {quote.character}

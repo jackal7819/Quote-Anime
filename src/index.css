@@ -18,10 +18,8 @@
 
 body {
     background-color: var(--light);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    scroll-behavior: smooth;
+    user-select: none;
 }
 
 .App {
@@ -94,22 +92,5 @@ button {
 }
 
 button:hover {
-    background-color: var(--secondary);
-}
-
-a {
-    text-decoration: none;
-
-    background-color: var(--primary);
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    border-radius: 3rem;
-    transition: 0.4s;
-    font-size: 1.5rem;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-a:hover {
     background-color: var(--secondary);
 }

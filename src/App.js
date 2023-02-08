@@ -26,14 +26,12 @@ function App() {
     }, []);
 
     return (
-        <div className='App' id="quote-box">
+        <div className='App'>
             <Quote quote={quote} />
 
-            <button onClick={generate} id='new-quote'>
+            <button onClick={generate}>
                 Generate new quote
             </button>
-
-			<a href="https://twitter.com/intent/tweet" target="_blank" rel="noreferrer" id="tweet-quote">Tweet this quote!</a>
         </div>
     );
 }
